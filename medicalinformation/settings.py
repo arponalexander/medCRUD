@@ -26,7 +26,7 @@ SECRET_KEY = '+4oo5j!!0j5ive1+f)m#6o6w9a#jo!vuxgq+o*zt*1b1to2w%w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['medcrud.herokuapp.com']
 
 
 # Application definition
