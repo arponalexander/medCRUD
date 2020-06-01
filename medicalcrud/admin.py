@@ -3,15 +3,15 @@ from .models import Medication_B00, Medication_R01, Medication_R02
 
 
 class CRUDAdmin(admin.ModelAdmin):
-    list_display = ['medication_Rec']
+    list_display = ['medication_rec']
 
 
 class CRUDAdmin2(admin.ModelAdmin):
-    list_display = ['medication_Route_Rec']
+    list_display = ['medication_route_rec']
 
 
 class CRUDAdmin3(admin.ModelAdmin):
-    list_display = ['medication_Frequency_Rec']
+    list_display = ['medication_frequency_rec']
 
 
 admin.site.register(Medication_B00, CRUDAdmin)
