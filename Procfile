@@ -1,1 +1,1 @@
-web: gunicorn medicalcrud.wsgi
+web: gunicorn medicalinformation.wsgi
