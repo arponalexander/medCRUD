@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Medication_R01(models.Model):
- 
+
     medication_Route_Rec = models.CharField(max_length=200)
     route = models.CharField(max_length=200)
     abbreviation = models.CharField(max_length=200)
